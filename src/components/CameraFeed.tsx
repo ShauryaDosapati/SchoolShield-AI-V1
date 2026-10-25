@@ -52,7 +52,7 @@ export function CameraFeed({ camera, alert, variant = 'tile', className }: Props
     if (!ctx) return
     simRef.current = new SceneSim(configRef.current)
 
-    const dpr = hud ? Math.min(2, window.devicePixelRatio || 1) : 1
+    const dpr = Math.min(hud ? 2 : 1.5, window.devicePixelRatio || 1)
     const fps = hud ? 30 : 12
     let visible = true
     let raf = 0
