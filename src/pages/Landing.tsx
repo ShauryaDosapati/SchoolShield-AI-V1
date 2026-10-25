@@ -126,7 +126,7 @@ export function Landing() {
             <Link to="/dashboard" className="flex items-center gap-2 rounded-lg bg-teal-400 px-5 py-3 font-semibold text-slate-900 hover:bg-teal-300">
               Launch live demo <ArrowRight className="size-4" />
             </Link>
-            <a href="https://www.youtube.com/watch?v=vOpPjDs0q74" target="_blank" rel="noreferrer" className="flex items-center gap-2 rounded-lg border border-white/20 px-5 py-3 font-semibold text-white hover:bg-white/5">
+            <a href="https://youtu.be/gQtsNemZ-5M" target="_blank" rel="noreferrer" className="flex items-center gap-2 rounded-lg border border-white/20 px-5 py-3 font-semibold text-white hover:bg-white/5">
               <Play className="size-4" /> Watch the video
             </a>
           </div>
